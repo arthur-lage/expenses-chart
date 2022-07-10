@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Expenses chart component</title>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="balance-wrapper">
+        <span class="my-balance">My balance</span>
+        <span class="balance">$921.48</span>
+      </div>
+      <img src="images/logo.svg" alt="Logo" />
+    </header>
+
+    <div class="chart">
+      <h2 class="spending-from-last-seven-days">Spending - Last 7 days</h2>
+
+      <div class="chart-expenses">
+        <div class="monday">
+          <div class="graph-column"></div>
+          <div class="expense-cost"></div>
+          <div class="day-text">mon</div>
+        </div>
+        <div class="tuesday">
+          <div class="graph-column"></div>
+          <div class="expense-cost"></div>
+          <div class="day-text">tue</div>
+        </div>
+        <div class="wednesday">
+          <div class="graph-column"></div>
+          <div class="expense-cost"></div>
+          <div class="day-text">wed</div>
+        </div>
+        <div class="thursday">
+          <div class="graph-column"></div>
+          <div class="expense-cost"></div>
+          <div class="day-text">thu</div>
+        </div>
+        <div class="friday">
+          <div class="graph-column"></div>
+          <div class="expense-cost"></div>
+          <div class="day-text">fri</div>
+        </div>
+        <div class="saturday">
+          <div class="graph-column"></div>
+          <div class="expense-cost"></div>
+          <div class="day-text">sat</div>
+        </div>
+        <div class="sunday">
+          <div class="graph-column"></div>
+          <div class="expense-cost"></div>
+          <div class="day-text">sun</div>
+        </div>
+      </div>
+
+      <div class="divisor"></div>
+
+      <div class="total">
+        <div class="this-month">
+          <span class="this-month-text">Total this month</span>
+          <span class="this-month-value">$478.33</span>
+        </div>
+        <div class="plus-from-last-month">
+          <span class="plus-from-last-month-value">+2.4%</span>
+          <span class="plus-from-last-month-text">from last month</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Arthur Lage</a>.
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
