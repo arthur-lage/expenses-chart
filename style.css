@@ -105,7 +105,7 @@ header {
 
 .chart-expenses .graph-column {
   width: 5rem;
-  height: 10rem;
+  height: 0rem;
   background: var(--red);
   border-radius: 0.5rem;
   transition: 0.2s ease;
